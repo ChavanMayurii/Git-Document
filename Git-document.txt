@@ -1,0 +1,22 @@
+#Git on an AMI Amazon Linux running on an EC2 server in AWS
+
+sudo yum install git -y
+git --version
+
+git config --global user.name "mayuri"
+git config --global user.email "mayuri@gmail.com"
+git config  --list
+
+mkdir git
+cd git
+
+git init
+git remote add origin "linkofrepositor"
+git pull "linkofrepository"
+ls
+
+git add .
+git commit -m "like"
+git push origin master                      #authenticate yourself for github by username and password
+
+
